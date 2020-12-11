@@ -1,6 +1,7 @@
 package controllers
 
 import (
+	"fmt"
 	"quiz-api/db"
 	"quiz-api/models"
 
@@ -33,16 +34,15 @@ func AddQuestion(c *gin.Context) {
 // GetQuestionByTopicID : get all question by topicID
 func GetQuestionByTopicID(c *gin.Context) {
 	var questions []models.Question
-	// var answers []models.Answer
 	db := db.Dbconn()
-
-	result := db.Where("topicid = ?", c.Param("topicid")).Find(&questions)
+	db.AutoMigrate(&models.Question{})
+	db.AutoMigrate(&models.Answer{})
+	result := db.Preload("Answers").Where("topic_id = ?", c.Param("topicid")).Find(&questions)
 	if result.Error != nil {
 		c.JSON(500, gin.H{
 			"error": result.Error,
 		})
 	} else {
-
 		c.JSON(200, gin.H{
 			"data": questions,
 		})
@@ -50,8 +50,8 @@ func GetQuestionByTopicID(c *gin.Context) {
 }
 
 type Dataquestion struct {
-	Id     uint `json:id`
-	Answer bool `json:answer`
+	QuestionId uint `json:questionId`
+	AnswerId   uint `json:answerId`
 }
 
 type DataPost struct {
@@ -66,16 +66,18 @@ func CaculatorScore(c *gin.Context) {
 	var score int32 = 0
 	if err := c.BindJSON(&data); err == nil {
 		for _, v := range data.Dataquestion {
-			result := db.Where("ID = ? and answer = ?", v.Id, v.Answer).First(&question)
+			result := db.Preload("Answers", "id = ?", v.AnswerId).Where("id = ?", v.QuestionId).Find(&question)
 			if result.Error != nil {
-				panic(result.Error)
-			} else {
+				fmt.Println(result.Error)
+			}
+			if question.Answers[0].IsCorrect != false {
 				score += question.Score
 			}
 		}
-		defer c.JSON(200, gin.H{
+		c.JSON(200, gin.H{
 			"score": score,
 		})
+
 	} else {
 		c.JSON(500, gin.H{
 			"error": err,

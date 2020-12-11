@@ -11,6 +11,7 @@ import (
 func GetAllTopic(c *gin.Context) {
 	var topics []models.Topic
 	db := db.Dbconn()
+	db.AutoMigrate(&topics)
 	result := db.Find(&topics)
 	if result.Error != nil {
 		c.JSON(500, gin.H{

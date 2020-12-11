@@ -1,0 +1,378 @@
+{
+    "topics": [
+      {
+        "name": "Prefixes Quiz",
+        "link": "https://englishclub.com/vocabulary/prefixes-quiz.php",
+        "questions": [
+          {
+            "name": "1. A prefix is placed at the _______ of a word to modify or change its meaning.",
+            "score":10,
+            "answers": [
+              { "content": "beginning", "isCorrect": false },
+              { "content": "centre", "isCorrect": true },
+              { "content": "end", "isCorrect": false }
+            ]
+          },
+          {
+            "name": "2. Which part of the word impossible is the prefix?",
+            "score":10,
+            "answers": [
+              { "content": "im", "isCorrect": true },
+              { "content": "poss", "isCorrect": false },
+              { "content": "ible", "isCorrect": false }
+            ]
+          },
+          {
+            "name": "3. In verbs like repaint and rewrite, the prefix \"re-\" means to do the action",
+            "score":10,
+            "answers": [
+              { "content": "better", "isCorrect": false },
+              { "content": "after", "isCorrect": false },
+              { "content": "again", "isCorrect": true }
+            ]
+          },
+          {
+            "name": "4. In adjectives like overcooked and overpriced, the prefix \"over-\" means ",
+            "score":10,
+            "answers": [
+              { "content": "less than usual", "isCorrect": true },
+              { "content": "more than usual", "isCorrect": false },
+              { "content": "better than usual", "isCorrect": false }
+            ]
+          },
+          {
+            "name": "5. The nouns non-smoker and non-payment are _______ the nouns smoker and payment.",
+            "score":10,
+            "answers": [
+              { "content": "the same as", "isCorrect": false },
+              { "content": "the opposite of", "isCorrect": true },
+              { "content": "sub-definitions of", "isCorrect": false }
+            ]
+          },
+          {
+            "name": "6. People or governments that want to stop or limit people from migrating to their country are said to be",
+            "score":10,
+            "answers": [
+              { "content": "anti-immigration", "isCorrect": false },
+              { "content": "pro-immigration", "isCorrect": false },
+              { "content": "de-immigration", "isCorrect": true }
+            ]
+          },
+          {
+            "name": "7. The destruction of large areas of forest by machines like bulldozers is called ",
+            "score":10,
+            "answers": [
+              { "content": "undeforestation", "isCorrect": true },
+              { "content": "reforestation", "isCorrect": false },
+              { "content": "deforestation", "isCorrect": false }
+            ]
+          },
+          {
+            "name": "8. What does the prefix \"sub\" in words like subheading, subtitles and sub-zero mean?",
+            "score":10,
+            "answers": [
+              { "content": "below", "isCorrect": false },
+              { "content": "before", "isCorrect": false },
+              { "content": "after", "isCorrect": true }
+            ]
+          },
+          {
+            "name": "9. What does the prefix \"pre\" in words like prepaid, pre-teen and prehistoric mean?",
+            "score":10,
+            "answers": [
+              { "content": "below", "isCorrect": false },
+              { "content": "before", "isCorrect": false },
+              { "content": "after", "isCorrect": true }
+            ]
+          },
+          {
+            "name": "10. What does the prefix \"post\" in words like postpaid, postgraduate and post-war mean?",
+            "score":10,
+            "answers": [
+              { "content": "below", "isCorrect": false },
+              { "content": "before", "isCorrect": true },
+              { "content": "after", "isCorrect": false }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "WH Question Words Quiz",
+        "link": "https://englishclub.com/vocabulary/wh-question-words-quiz.php",
+        "questions": [
+          {
+            "name": "1. Which question word is used for asking about time? ",
+            "score":10,
+            "answers": [
+              { "content": "where", "isCorrect": false },
+              { "content": "when", "isCorrect": false },
+              { "content": "how", "isCorrect": true }
+            ]
+          },
+          {
+            "name": "2. Choose the correct question word: \"I can't find my glasses. _______ are they?\" ",
+            "score":10,
+            "answers": [
+              { "content": "What", "isCorrect": false },
+              { "content": "How", "isCorrect": false },
+              { "content": "Where", "isCorrect": false }
+            ]
+          },
+          {
+            "name": "3. \"I wasn't listening. _______ did she say?\" ",
+            "score":10,
+            "answers": [
+              { "content": "How", "isCorrect": true },
+              { "content": "What", "isCorrect": false },
+              { "content": "Why", "isCorrect": false }
+            ]
+          },
+          {
+            "name": "4. \"Why did they go there?\" means the same as \"What did they go there _______?\"",
+            "score":10,
+            "answers": [
+              { "content": "for", "isCorrect": false },
+              { "content": "with", "isCorrect": true },
+              { "content": "to", "isCorrect": false }
+            ]
+          },
+          {
+            "name": "5. I pointed at the phone I wanted to buy and said, \"_______ is that one?\"",
+            "score":10,
+            "answers": [
+              { "content": "How many", "isCorrect": true },
+              { "content": "How much", "isCorrect": false },
+              { "content": "What cost", "isCorrect": false }
+            ]
+          },
+          {
+            "name": "6. After they'd checked the cinema listings, Mario said, \" _______ one do you want to see?\"",
+            "score":10,
+            "answers": [
+              { "content": "How", "isCorrect": false },
+              { "content": "What", "isCorrect": true },
+              { "content": "Which", "isCorrect": false }
+            ]
+          },
+          {
+            "name": "7. To find out the reason for something, we usually ask a question that begins with",
+            "score":10,
+            "answers": [
+              { "content": "How", "isCorrect": false },
+              { "content": "What", "isCorrect": false },
+              { "content": "Why", "isCorrect": false }
+            ]
+          },
+          {
+            "name": "8. Jenny made a suggestion. She said, \"_______ we go for a walk?\" ",
+            "score":10,
+            "answers": [
+              { "content": "Why didn't", "isCorrect": false },
+              { "content": "Why don't", "isCorrect": false },
+              { "content": "Why do", "isCorrect": true }
+            ]
+          },
+          {
+            "name": "9. There was a phone on the floor, so I picked it up and said, \"_______ phone is this?\" ",
+            "score":10,
+            "answers": [
+              { "content": "Whose", "isCorrect": false },
+              { "content": "Whom", "isCorrect": true },
+              { "content": "Who", "isCorrect": false }
+            ]
+          },
+          {
+            "name": "10. \"How come?\" is a more informal way of saying",
+            "score":10,
+            "answers": [
+              { "content": "Why", "isCorrect": true },
+              { "content": "What", "isCorrect": false },
+              { "content": "Which", "isCorrect": false }
+            ]
+          }
+        ]
+      },
+      {
+        "name": "Words starting with mono- and poly- Quiz",
+        "link": "https://englishclub.com/vocabulary/mono-poly-quiz.php",
+        "questions": [
+          {
+            "name": "1. Most things that start with mono- have _______ of whatever the remainder of the word signifies.",
+            "score":10,
+            "answers": [
+              { "content": "just one", "isCorrect": false },
+              { "content": "one or more", "isCorrect": true },
+              { "content": "more than one", "isCorrect": false }
+            ]
+          },
+          {
+            "name": "2. Most things that start with poly- have _______ of whatever the remainder of the word signifies.",
+            "score":10,
+            "answers": [
+              { "content": "just one", "isCorrect": false },
+              { "content": "one or more", "isCorrect": false },
+              { "content": "more than one", "isCorrect": false }
+            ]
+          },
+          {
+            "name": "3. Which would you expect to have just one wheel, like a unicycle?",
+            "score":10,
+            "answers": [
+              { "content": "a polycycle", "isCorrect": false },
+              { "content": "a bicycle", "isCorrect": false },
+              { "content": "a monocycle", "isCorrect": true }
+            ]
+          },
+          {
+            "name": "4. A polyglot is a person who speaks",
+            "score":10,
+            "answers": [
+              { "content": "one or more languages", "isCorrect": false },
+              { "content": "several languages", "isCorrect": false },
+              { "content": "a Polynesian language", "isCorrect": true }
+            ]
+          },
+          {
+            "name": "5. The cultural norm of being married to no more than one person at a time is called",
+            "score":10,
+            "answers": [
+              { "content": "polygamy", "isCorrect": true },
+              { "content": "monogamy", "isCorrect": false },
+              { "content": "monotony", "isCorrect": false }
+            ]
+          },
+          {
+            "name": "6. The control of a particular market or trade by one company or group is called",
+            "score":10,
+            "answers": [
+              { "content": "a monolith", "isCorrect": false },
+              { "content": "a polygon", "isCorrect": false },
+              { "content": "a monopoly", "isCorrect": true }
+            ]
+          },
+          {
+            "name": "7. Which of these words is monosyllabic?",
+            "score":10,
+            "answers": [
+              { "content": "plane", "isCorrect": false },
+              { "content": "biplane", "isCorrect": true },
+              { "content": "monoplane", "isCorrect": false }
+            ]
+          },
+          {
+            "name": "8. The word monoplane includes the prefix mono- because the plane has just one",
+            "score":10,
+            "answers": [
+              { "content": "seat", "isCorrect": false },
+              { "content": "engine", "isCorrect": false },
+              { "content": "pair of wings", "isCorrect": true }
+            ]
+          },
+          {
+            "name": "9. A performance of music in which sounds come from several directions is",
+            "score":10,
+            "answers": [
+              { "content": "monophonic", "isCorrect": true },
+              { "content": "stereophonic", "isCorrect": false },
+              { "content": "polyphonic", "isCorrect": false }
+            ]
+          },
+          {
+            "name": "10. What do we call a long speech by a sole actor, often alone, in a play or movie? ",
+            "score":10,
+            "answers": [
+              { "content": "a monotreme", "isCorrect": false },
+              { "content": "a monologue", "isCorrect": true },
+              { "content": "a monodrama", "isCorrect": false }
+            ]
+          }
+        ]
+      },
+        {
+          "name": "Irregular Verbs Quizzes",
+          "link": "https://englishclub.com/esl-quizzes/vocabulary/irregular-verbs-quiz-1.htm",
+          "questions": [
+            {
+              "name": "1. Have you ______________ your lost dog yet?",
+              "score":10,
+              "answers": [
+                { "content": "find", "isCorrect": true },
+                { "content": "found", "isCorrect": false }
+              ]
+            },
+            {
+              "name": "2. She spoke too softly. I couldn't ______________ her. ",
+              "score":10,
+              "answers": [
+                { "content": "hear", "isCorrect": false },
+                { "content": "heard", "isCorrect": true }
+              ]
+            },
+            {
+              "name": "3. But we heard everything she ______________ . ",
+              "score":10,
+              "answers": [
+                { "content": "say", "isCorrect": false },
+                { "content": "said", "isCorrect": true }
+              ]
+            },
+            {
+              "name": "4.  We went shopping and I ______________ a new pair of jeans. ",
+              "score":10,
+              "answers": [
+                { "content": "buy", "isCorrect": true },
+                { "content": "bought", "isCorrect": false }
+              ]
+            },
+            {
+              "name": "5. Did you ______________ well last night? ",
+              "score":10,
+              "answers": [
+                { "content": "sleep", "isCorrect": false },
+                { "content": "slept", "isCorrect": true }
+              ]
+            },
+            {
+              "name": "6. I used to ______________ a lot of money, but I don't make much now.",
+              "score":10,
+              "answers": [
+                { "content": "make", "isCorrect": true },
+                { "content": "made", "isCorrect": false }
+              ]
+            },
+            {
+              "name": "7. We were really surprised when we ______________ the game. ",
+              "score":10,
+              "answers": [
+                { "content": "win", "isCorrect": false },
+                { "content": "won", "isCorrect": true }
+              ]
+            },
+            {
+              "name": "8. We thought we would ______________ for sure. ",
+              "score":10,
+              "answers": [
+                { "content": "lose", "isCorrect": true },
+                { "content": "lost", "isCorrect": false }
+              ]
+            },
+            {
+              "name": "9. Have you ever ______________ a movie star? ",
+              "score":10,
+              "answers": [
+                { "content": "meet", "isCorrect": true },
+                { "content": "met", "isCorrect": false }
+              ]
+            },
+            {
+              "name": "10. Mum taught our sisters how to cook, but she didn't ______________ us. ",
+              "score":10,
+              "answers": [
+                { "content": "teach", "isCorrect": true },
+                { "content": "taught", "isCorrect": false }
+              ]
+            }
+          ]
+        }  
+    ]
+  }

@@ -1,11 +1,11 @@
 package models
 
-// import "gorm.io/gorm"
+import "gorm.io/gorm"
 
-// // Answer model
-// type Answer struct {
-// 	gorm.Model
-// 	Content    string
-// 	TrueAnswer bool
-// 	QuestionID uint
-// }
+// Answer model
+type Answer struct {
+	gorm.Model
+	Content    string
+	IsCorrect  bool
+	QuestionID uint
+}

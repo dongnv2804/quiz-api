@@ -5,6 +5,6 @@ import "gorm.io/gorm"
 // Topic model
 type Topic struct {
 	gorm.Model
-	Name string `json:name`
-	// Question []Question
+	Name string
+	// Questions []Question
 }
