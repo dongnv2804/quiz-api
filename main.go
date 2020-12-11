@@ -4,6 +4,7 @@ import (
 	"quiz-api/controllers"
 
 	"github.com/gin-gonic/gin"
+	cors "github.com/rs/cors/wrapper/gin"
 )
 
 func main() {
@@ -13,6 +14,7 @@ func main() {
 
 func setupRoute() *gin.Engine {
 	r := gin.Default()
+	r.Use(cors.Default())
 	api := r.Group("/api")
 	{
 		api.GET("/", func(c *gin.Context) {

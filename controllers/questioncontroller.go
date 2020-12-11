@@ -49,11 +49,13 @@ func GetQuestionByTopicID(c *gin.Context) {
 	}
 }
 
+// Dataquestion is struct
 type Dataquestion struct {
-	QuestionId uint `json:questionId`
-	AnswerId   uint `json:answerId`
+	QuestionID uint `json:questionId`
+	AnswerID   uint `json:answerId`
 }
 
+// DataPost is struct
 type DataPost struct {
 	Dataquestion []Dataquestion `json:dataquestion`
 }
@@ -61,21 +63,23 @@ type DataPost struct {
 // CaculatorScore : caculate score question
 func CaculatorScore(c *gin.Context) {
 	db := db.Dbconn()
-	var question models.Question
 	var data DataPost
-	var score int32 = 0
+	var score, countCorrect int32 = 0, 0
 	if err := c.BindJSON(&data); err == nil {
 		for _, v := range data.Dataquestion {
-			result := db.Preload("Answers", "id = ?", v.AnswerId).Where("id = ?", v.QuestionId).Find(&question)
+			var question models.Question
+			result := db.Preload("Answers", "id = ?", v.AnswerID).Where("id = ?", v.QuestionID).Find(&question)
 			if result.Error != nil {
 				fmt.Println(result.Error)
 			}
 			if question.Answers[0].IsCorrect != false {
 				score += question.Score
+				countCorrect++
 			}
 		}
 		c.JSON(200, gin.H{
-			"score": score,
+			"score":        score,
+			"countCorrect": countCorrect,
 		})
 
 	} else {
